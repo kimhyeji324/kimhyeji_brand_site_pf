@@ -40,7 +40,7 @@
           <a href="index.ssg.php">BRAND</a>
         </li>
         <li class="ABOUTME text-16px">
-          <a href="aboutMe.ssg.php">ABOUT ME</a>
+          <a href="aboutMe2.ssg.php">ABOUT ME</a>
         </li>
         <li class="PROCESS text-16px">
           <a href="process.ssg.php">PROCESS</a>
