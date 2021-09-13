@@ -1,5 +1,5 @@
 <?php
-$pageCode = 'aboutMe';
+$pageCode = 'aboutMe2';
 ?>
 <?php require_once "head.php";?>
 
