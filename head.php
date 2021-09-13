@@ -37,16 +37,16 @@
       <ul class="flex">
         <li class="flex flex-grow"></li>
         <li class="BRAND text-16px">
-          <a href="/index.ssg.php">BRAND</a>
+          <a href="index.ssg.php">BRAND</a>
         </li>
         <li class="ABOUTME text-16px">
-          <a href="/aboutMe.ssg.php">ABOUT ME</a>
+          <a href="aboutMe.ssg.php">ABOUT ME</a>
         </li>
         <li class="PROCESS text-16px">
-          <a href="/process.ssg.php">PROCESS</a>
+          <a href="process.ssg.php">PROCESS</a>
         </li>
         <li class="PORTFOLIO text-16px">
-          <a href="/portfolio.ssg.php">PORTFOLIO</a>
+          <a href="portfolio.ssg.php">PORTFOLIO</a>
         </li>
       </ul>
     </nav>
