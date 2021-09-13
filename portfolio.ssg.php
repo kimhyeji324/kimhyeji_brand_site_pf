@@ -1,35 +1,4 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>디자이너 김혜지 포트폴리오</title>
-
-<!-- 제이쿼리 -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
-<!-- 테일윈드 -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.7/tailwind.min.css">
-
-<!-- full page css -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.css">
-<!-- full page js -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"></script>
-<!-- full page scrollOverflow -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/vendors/scrolloverflow.min.js"></script>
-
-<!-- js 가져오기 -->
-<script src="common.js" defer></script>
-<script src="portfolio.js" defer></script>
-
-<!-- css 가져오기 -->
-<link rel="stylesheet" href="common.css">
-<link rel="stylesheet" href="portfolio.css">
-
-</head>
-<body>
-
+<?php $pageCode = 'portfolio'; ?>
 <?php require_once "head.php";?>
 
 <div class="site-wrap">

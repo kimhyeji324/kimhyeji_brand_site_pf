@@ -1,35 +1,6 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>디자이너 김혜지 자기소개</title>
-
-<!-- 제이쿼리 -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
-<!-- 테일윈드 -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.7/tailwind.min.css">
-
-<!-- full page css -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.css">
-<!-- full page js -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"></script>
-<!-- full page scrollOverflow -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/vendors/scrolloverflow.min.js"></script>
-
-<!-- js 가져오기 -->
-<script src="common.js" defer></script>
-<script src="aboutme.js" defer></script>
-
-<!-- css 가져오기 -->
-<link rel="stylesheet" href="common.css">
-<link rel="stylesheet" href="aboutme.css">
-
-</head>
-<body>
-
+<?php
+$pageCode = 'aboutMe';
+?>
 <?php require_once "head.php";?>
 
 <!-- full page -->
@@ -55,7 +26,8 @@
 
             <!-- 라인 -->
             <div class="img-box aboutme-line-1 flex self-center">
-              <img src="https://cdn.jsdelivr.net/gh/kimhyeji324/brand_site_Resource@master/docs/main_page_line_1-1.png" alt="">
+              <img src="https://cdn.jsdelivr.net/gh/kimhyeji324/brand_site_Resource@master/docs/main_page_line_1-1.png"
+                alt="">
             </div>
 
             <!-- 텍스트 -->
@@ -112,7 +84,8 @@
             </span>
             <!-- line -->
             <div class="img-box aboutme-line-2 self-center">
-              <img src="https://cdn.jsdelivr.net/gh/kimhyeji324/brand_site_Resource@master/docs/key word_line.png" alt="">
+              <img src="https://cdn.jsdelivr.net/gh/kimhyeji324/brand_site_Resource@master/docs/key word_line.png"
+                alt="">
             </div>
           </div>
         </div>
@@ -127,10 +100,12 @@
               </span>
             </div>
             <div class="img-box keyword-sun">
-              <img src="https://cdn.jsdelivr.net/gh/kimhyeji324/brand_site_Resource@master/docs/key word_sun.png" alt="">
+              <img src="https://cdn.jsdelivr.net/gh/kimhyeji324/brand_site_Resource@master/docs/key word_sun.png"
+                alt="">
             </div>
             <div class="img-box aboutme-line-3">
-              <img src="https://cdn.jsdelivr.net/gh/kimhyeji324/brand_site_Resource@master/docs/key word_line_2.png" alt="">
+              <img src="https://cdn.jsdelivr.net/gh/kimhyeji324/brand_site_Resource@master/docs/key word_line_2.png"
+                alt="">
             </div>
             <div>
               <span class="body-text text-18px pb-4-5 whitespace-nowrap">
@@ -167,10 +142,12 @@
               </span>
             </div>
             <div class="img-box keyword-web">
-              <img src="https://cdn.jsdelivr.net/gh/kimhyeji324/brand_site_Resource@master/docs/key word_Web.png" alt="">
+              <img src="https://cdn.jsdelivr.net/gh/kimhyeji324/brand_site_Resource@master/docs/key word_Web.png"
+                alt="">
             </div>
             <div class="img-box aboutme-line-3">
-              <img src="https://cdn.jsdelivr.net/gh/kimhyeji324/brand_site_Resource@master/docs/key word_line_2.png" alt="">
+              <img src="https://cdn.jsdelivr.net/gh/kimhyeji324/brand_site_Resource@master/docs/key word_line_2.png"
+                alt="">
             </div>
             <div>
               <span class="body-text text-18px pb-4-5 whitespace-nowrap">
@@ -202,10 +179,12 @@
               </span>
             </div>
             <div class="img-box keyword-per">
-              <img src="https://cdn.jsdelivr.net/gh/kimhyeji324/brand_site_Resource@master/docs/key word_Perfect.png" alt="">
+              <img src="https://cdn.jsdelivr.net/gh/kimhyeji324/brand_site_Resource@master/docs/key word_Perfect.png"
+                alt="">
             </div>
             <div class="img-box aboutme-line-3">
-              <img src="https://cdn.jsdelivr.net/gh/kimhyeji324/brand_site_Resource@master/docs/key word_line_2.png" alt="">
+              <img src="https://cdn.jsdelivr.net/gh/kimhyeji324/brand_site_Resource@master/docs/key word_line_2.png"
+                alt="">
             </div>
             <div>
               <span class="body-text text-18px pb-4-5">
@@ -287,7 +266,8 @@
             </div>
           </div>
           <div class="img-box aboutme-moon-2 flex items-center">
-            <img src="https://cdn.jsdelivr.net/gh/kimhyeji324/brand_site_Resource@master/docs/ABOUTME_moon_2_.png" alt="">
+            <img src="https://cdn.jsdelivr.net/gh/kimhyeji324/brand_site_Resource@master/docs/ABOUTME_moon_2_.png"
+              alt="">
           </div>
         </div>
 
@@ -310,7 +290,8 @@
 
       <!-- 프로필 -->
       <div class="flex-shrink-0 relative profile-2 self-center">
-        <img src="https://cdn.jsdelivr.net/gh/kimhyeji324/brand_site_Resource@master/docs/profile_2.png" class="absolute top-0 left-0 w-full h-full object-cover" alt="">
+        <img src="https://cdn.jsdelivr.net/gh/kimhyeji324/brand_site_Resource@master/docs/profile_2.png"
+          class="absolute top-0 left-0 w-full h-full object-cover" alt="">
       </div>
 
       <!-- text-box -->
@@ -481,22 +462,27 @@
             <div class="self-center">
               <div class="flex">
                 <div class="img-box skill-img">
-                  <img src="https://cdn.jsdelivr.net/gh/kimhyeji324/brand_site_Resource@master/docs/skill_html.png" alt="">
+                  <img src="https://cdn.jsdelivr.net/gh/kimhyeji324/brand_site_Resource@master/docs/skill_html.png"
+                    alt="">
                 </div>
                 <div class="img-box skill-img">
-                  <img src="https://cdn.jsdelivr.net/gh/kimhyeji324/brand_site_Resource@master/docs/skill_css.png" alt="">
+                  <img src="https://cdn.jsdelivr.net/gh/kimhyeji324/brand_site_Resource@master/docs/skill_css.png"
+                    alt="">
                 </div>
                 <div class="img-box skill-img">
-                  <img src="https://cdn.jsdelivr.net/gh/kimhyeji324/brand_site_Resource@master/docs/skill_jq.png" alt="">
+                  <img src="https://cdn.jsdelivr.net/gh/kimhyeji324/brand_site_Resource@master/docs/skill_jq.png"
+                    alt="">
                 </div>
               </div>
 
               <div class="flex justify-center">
                 <div class="img-box skill-img">
-                  <img src="https://cdn.jsdelivr.net/gh/kimhyeji324/brand_site_Resource@master/docs/skill_figma.png" alt="">
+                  <img src="https://cdn.jsdelivr.net/gh/kimhyeji324/brand_site_Resource@master/docs/skill_figma.png"
+                    alt="">
                 </div>
                 <div class="img-box skill-img">
-                  <img src="https://cdn.jsdelivr.net/gh/kimhyeji324/brand_site_Resource@master/docs/skill_ps-2.png" alt="">
+                  <img src="https://cdn.jsdelivr.net/gh/kimhyeji324/brand_site_Resource@master/docs/skill_ps-2.png"
+                    alt="">
                 </div>
               </div>
             </div>
@@ -531,7 +517,9 @@
                   PORTFOLIO
                 </span>
                 <span class="img-box aboutme-icon-20 flex">
-                  <img src="https://cdn.jsdelivr.net/gh/kimhyeji324/brand_site_Resource@master/docs/main_page_icon_20.png" alt="">
+                  <img
+                    src="https://cdn.jsdelivr.net/gh/kimhyeji324/brand_site_Resource@master/docs/main_page_icon_20.png"
+                    alt="">
                 </span>
               </div>
             </div>

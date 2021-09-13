@@ -1,34 +1,4 @@
-<!DOCTYPE html>
-<html lang="ko">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>디자이너 김혜지 프로세스</title>
-
-<!-- 제이쿼리 -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
-<!-- 테일윈드 -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.7/tailwind.min.css">
-
-<!-- full page css -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.css">
-<!-- full page js -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"></script>
-<!-- full page scrollOverflow -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/vendors/scrolloverflow.min.js"></script>
-
-<!-- js 가져오기 -->
-<script src="common.js" defer></script>
-<script src="process.js" defer></script>
-
-<!-- css 가져오기 -->
-<link rel="stylesheet" href="common.css">
-<link rel="stylesheet" href="process.css">
-
-</head>
-<body>
+<?php $pageCode = 'process'; ?>
 
 <?php require_once "head.php";?>
 
@@ -87,7 +57,8 @@
               <span>VALUSE</span>
             </div>
             <div class="img-box process-moon-2 flex justify-center">
-              <img src="https://cdn.jsdelivr.net/gh/kimhyeji324/brand_site_Resource@master/docs/process-moon-2.png" alt="">
+              <img src="https://cdn.jsdelivr.net/gh/kimhyeji324/brand_site_Resource@master/docs/process-moon-2.png"
+                alt="">
             </div>
             <div>
               <div class="body-text text-left text-18px pb-4-5">
@@ -135,7 +106,8 @@
               <span>CONCEPT</span>
             </div>
             <div class="img-box process-moon-3 flex justify-center">
-              <img src="https://cdn.jsdelivr.net/gh/kimhyeji324/brand_site_Resource@master/docs/process-moon-3.png" alt="">
+              <img src="https://cdn.jsdelivr.net/gh/kimhyeji324/brand_site_Resource@master/docs/process-moon-3.png"
+                alt="">
             </div>
             <div class="body-text text-left text-18px pb-4-5">
               <span>
@@ -588,7 +560,8 @@
                 </div>
               </div>
               <div class="img-box icon-20">
-                <img src="https://cdn.jsdelivr.net/gh/kimhyeji324/brand_site_Resource@master/docs/icon-right.png" alt="">
+                <img src="https://cdn.jsdelivr.net/gh/kimhyeji324/brand_site_Resource@master/docs/icon-right.png"
+                  alt="">
               </div>
             </div>
 
