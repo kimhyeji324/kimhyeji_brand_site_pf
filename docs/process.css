@@ -1,0 +1,443 @@
+/*영문폰트*/
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap");
+
+/*한글폰트*/
+@font-face {
+  font-family: "MaruBuri-Regular";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/MaruBuri-Regular.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+/*폰트 적용*/
+html > body {
+  font-family: "Libre Baskerville", "MaruBuri-Regular", serif;
+  color: white;
+  background-color: #010101;
+}
+/*라이브러리 S*/
+
+/* 1440 그리드 */
+.con-min-width {
+  min-width: 1440px;
+}
+.con {
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  box-sizing: border-box;
+  padding: 0 20px;
+  position: relative;
+}
+/*54px*/
+.text-54px {
+  font-size: 54px;
+}
+.pb-19 {
+  padding-bottom: 19px;
+}
+
+/*31px*/
+.text-31px {
+  font-size: 31px;
+}
+.pb-8-5 {
+  padding-bottom: 8.5px;
+}
+
+/*26px*/
+.text-26px {
+  font-size: 26px;
+}
+.pb-9-5 {
+  padding-bottom: 9.5px;
+}
+.white-title-text {
+  color: #191919;
+}
+
+/*18px*/
+.text-18px {
+  font-size: 18px;
+}
+.pb-4-5 {
+  padding-bottom: 4.5px;
+}
+.body-text {
+  color: #969696;
+}
+.white-body-text {
+  color: #757575;
+}
+.ft-pg-col {
+  color: #9b9b9b;
+}
+
+/*16px*/
+.text-16px {
+  font-size: 16px;
+}
+
+/*14px*/
+.text-14px {
+  font-size: 14px;
+}
+.sub-text {
+  color: #404040;
+}
+
+/*padding*/
+.pb-11px {
+  padding-bottom: 11px;
+}
+
+.pl-18 {
+  padding-left: 18px;
+}
+
+.pl-38 {
+  padding-left: 38px;
+}
+
+.pr-90 {
+  padding-right: 90px;
+}
+
+.-ml-31 {
+  margin-left: -31px;
+}
+
+/*line-height*/
+.line-h-0 {
+  line-height: 0;
+}
+
+/*라이브러리 E*/
+
+/*img S*/
+.process-moon-1 > img {
+  width: 343px;
+}
+
+.process-moon-2 > img {
+  width: 410px;
+}
+
+.process-moon-3 > img {
+  width: 349px;
+}
+
+.project-s > img {
+  width: 270px;
+}
+
+.font-img > img {
+  width: 56px;
+}
+
+.color-1 {
+  width: 270px;
+}
+.color-2 {
+  width: 340px;
+}
+.color-3 {
+  width: 764px;
+}
+
+.page {
+  width: 1300px;
+}
+
+.icon-20 {
+  width: 30px;
+}
+
+/*img E*/
+
+/*top-bar*/
+.top-bar {
+  top: 6.5%;
+}
+.BRAND {
+  padding-right: 21px;
+}
+
+.ABOUTME,
+.PROCESS {
+  padding: 0 21px;
+}
+
+.PORTFOLIO {
+  padding-left: 21px;
+}
+
+.top-bar > .con > nav > ul > li > a {
+  position: relative;
+  color: white;
+  transition: color 0.7s;
+}
+.top-bar > .con > nav > ul > li:hover > a {
+  position: relative;
+  color: #6a6a6a;
+}
+
+.top-bar > .con > nav > ul > li > a::after {
+  content: "";
+  background-color: white;
+  width: 3px;
+  height: 3px;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  border-radius: 50%;
+  transition: left 0.7s, background 0.7s, width 0.7s;
+}
+
+.top-bar > .con > nav > ul > li:hover > a::after {
+  content: "";
+  background-color: #6a6a6a;
+  width: 100%;
+  height: 2px;
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 0%;
+  border-radius: 0;
+}
+
+/*section-1*/
+.process-text-box-1 {
+  padding-left: 17px;
+}
+
+/*section-2*/
+.process-line-1 {
+  width: 1px;
+  background: linear-gradient(to bottom, #010101, #ffffff);
+}
+.process-line-2 {
+  width: 1px;
+  background: linear-gradient(to bottom, #010101, #ffffff);
+}
+.process-line-3 {
+  width: 1px;
+  background: linear-gradient(to bottom, #010101, #ffffff);
+}
+
+.text-overview {
+  top: 50%;
+  right: 70%;
+  transform: translate(-50%, -50%) rotate(-90deg);
+  padding-top: 20px;
+  background-color: #010101;
+}
+
+.process-text-box-2 {
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.process-text-box-3 {
+  padding-left: 74px;
+  padding-right: 58px;
+}
+
+.process-moon-2 {
+  padding-bottom: 34px;
+}
+
+.process-moon-3 {
+  padding-top: 34px;
+  padding-bottom: 39px;
+}
+
+/*section-3*/
+.bg-img-1 {
+  background-image: url("https://cdn.jsdelivr.net/gh/kimhyeji324/brand_site_Resource@master/docs/bg-img-1.png");
+  background-size: cover;
+}
+
+.process-text-box-4 {
+  background: linear-gradient(90deg, #ffffff, gray);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  width: 716px;
+  height: 780px;
+}
+
+.padding-box-1::after {
+  content: "";
+  padding: 10px 500px;
+  display: block;
+}
+
+/*section-4*/
+.bg-img-2 {
+  background-image: url("https://cdn.jsdelivr.net/gh/kimhyeji324/brand_site_Resource@master/docs/bg-img-2.png");
+  background-size: cover;
+}
+
+.process-line-4 {
+  height: 1px;
+  background-color: #ffffff;
+  background: linear-gradient(to right, #010101, #ffffff, #010101);
+}
+
+.text-project {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.process-text-box-5 {
+  padding-bottom: 100px;
+}
+
+.process-text-box-7 {
+  padding-top: 100px;
+}
+
+/*section-5*/
+.process-text-box-8__text-1 {
+  padding-bottom: 108px;
+}
+
+.text-regular {
+  line-height: 0;
+}
+
+.process-line-5 {
+  width: 1px;
+  background: linear-gradient(to bottom, #010101, #ffffff, #010101);
+}
+
+.font-img-1 {
+  padding-bottom: 42px;
+  padding-left: 86px;
+  padding-right: 42px;
+}
+
+.font-img-2 {
+  padding-left: 86px;
+}
+
+.text-font {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(90deg);
+  margin-left: -22px;
+}
+
+.process-text-box-10 {
+  margin-left: -54px;
+}
+
+/*section-6*/
+.process-line-6 {
+  width: 329px;
+  height: 1px;
+  background: linear-gradient(to left, #010101, #ffffff, #ffffff);
+  align-self: center;
+  margin-right: -33px;
+  margin-bottom: -25px;
+}
+
+.color-1 {
+  padding-right: 29px;
+}
+
+.color-2 {
+  padding-left: 29px;
+}
+
+.process-text-box-11 {
+  padding-bottom: 100px;
+}
+
+.process-text-box-11__text-1 {
+  background: linear-gradient(90deg, white, #969696);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.process-text-box-12__text-2 {
+  background: linear-gradient(90deg, #969696, white);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.padding-box-2 {
+  padding: 0 60px;
+}
+
+.process-line-7 {
+  width: 329px;
+  height: 1px;
+  background: linear-gradient(to right, #010101, #ffffff, #ffffff);
+  align-self: center;
+  position: absolute;
+  top: 63%;
+  left: 55%;
+}
+
+/*section-7*/
+.text-branding-page {
+  bottom: 23%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(-90deg);
+}
+
+.process-text-box-13 > div {
+  width:52px;
+}
+
+.padding-box-3 {
+  width:35px;
+  height:1px;
+}
+
+/*section-8*/
+.text-branding-page {
+  bottom: 26%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(90deg);
+}
+
+.process-text-box-14 > div {
+   width:52px;
+}
+
+/*section-9*/
+.bg-img-3 {
+  width: 100%;
+  height: 600px;
+  background-image: url("https://cdn.jsdelivr.net/gh/kimhyeji324/brand_site_Resource@master/docs/bg-img-3.png");
+  background-size: cover;
+}
+
+.process-text-box-15 {
+  width: 100%;
+  height: 600px;
+}
+
+.shield-box-5 {
+  padding-top: 200px;
+}
+
+.element-box-5 {
+  width: 100%;
+  height: 200px;
+}
+
+.process-text-box-16__text-1 {
+  padding-left: 20px;
+}
+
+.process-text-box-17__text-1 {
+  padding-right: 20px;
+}
+
+.shield-box-6 {
+  padding: 0 30px;
+}
