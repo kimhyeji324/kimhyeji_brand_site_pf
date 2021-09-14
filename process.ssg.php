@@ -532,9 +532,9 @@
               </div>
               <div class="process-text-box-16__text-1">
                 <div class="text-31px">
-                  <span>
+                  <a href="index.ssg.php">
                     BRANDING
-                  </span>
+                    </a>
                 </div>
                 <div class="text-18px body-text">
                   <span>
@@ -549,9 +549,9 @@
             <div class="process-text-box-17 flex items-center">
               <div class="process-text-box-17__text-1">
                 <div class="text-31px">
-                  <span>
+                  <a href="portfolio.ssg.php">
                     PORTFOLIO
-                  </span>
+                    </a>
                 </div>
                 <div class="text-18px body-text text-right">
                   <span>

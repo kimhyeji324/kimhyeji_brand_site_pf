@@ -513,21 +513,21 @@ $pageCode = 'aboutMe2';
           <div>
             <div>
               <div class="flex justify-center text-31px">
-                <span class="flex">
+                <a href="portfolio.ssg.php" class="flex">
                   PORTFOLIO
-                </span>
-                <span class="img-box aboutme-icon-20 flex">
+                  </a>
+                  <a href="portfolio.ssg.php" class="img-box aboutme-icon-20 flex">
                   <img
                     src="https://cdn.jsdelivr.net/gh/kimhyeji324/brand_site_Resource@master/docs/main_page_icon_20.png"
                     alt="">
-                </span>
+                    </a>
               </div>
             </div>
 
             <div class="body-text text-18px text-center pt-3">
-              <span>
+            <a href="portfolio.ssg.php">
                 PROJECT - CONCEPT - DISIGN
-              </span>
+                </a>
             </div>
           </div>
         </div>

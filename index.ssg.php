@@ -182,19 +182,19 @@
           
           <div class="pb-8-5">
             <div class="flex justify-center text-31px">
-              <span class="flex">
+              <a href="process.ssg.php" class="flex">
                 PROCESS
-              </span>
-              <span class="img-box main_page_icon_20 flex">
+                </a>
+                <a href="process.ssg.php" class="img-box main_page_icon_20 flex">
                 <img src="https://cdn.jsdelivr.net/gh/kimhyeji324/brand_site_Resource@master/docs/main_page_icon_20.png" alt="">
-              </span>
+                </a>
             </div>
           </div>
 
           <div class="body-text text-18px">
-            <span>
+          <a href="process.ssg.php">
               원은 여러조각으로 구성된 다각형일뿐 완벽한 원은 없다고 합니다
-            </span>
+              </a>
           </div>
 
         </div>

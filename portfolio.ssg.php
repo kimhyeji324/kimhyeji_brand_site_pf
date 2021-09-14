@@ -259,19 +259,19 @@
             <div class="flex h-full items-center">
 
               <div class="process-text-box-16 flex">
-                <div class="img-box icon-20 flex items-center">
+              <a href="aboutMe2.ssg.php" class="img-box icon-20 flex items-center">
                   <img src="https://cdn.jsdelivr.net/gh/kimhyeji324/brand_site_Resource@master/docs/icon-left.png" alt="">
-                </div>
+                  </a>
                 <div class="process-text-box-16__text-1">
                   <div class="text-31px">
-                    <span>
+                    <a href="aboutMe2.ssg.php">
                       ABOUT ME
-                    </span>
+                      </a>
                   </div>
                   <div class="text-18px body-text">
-                    <span>
+                  <a href="aboutMe2.ssg.php">
                       원이 되고 싶은 신입 디자이너 “김혜지” 입니다.
-                    </span>
+                      </a>
                   </div>
                 </div>
               </div>
@@ -281,19 +281,19 @@
               <div class="process-text-box-17 flex items-center">
                 <div class="process-text-box-17__text-1">
                   <div class="text-31px text-right">
-                    <span>
+                    <a href="https://wiken.io/b/156" target="_blank">
                       BLOG
-                    </span>
+                      </a>
                   </div>
                   <div class="text-18px body-text text-right">
-                    <span>
+                    <a href="https://wiken.io/b/156" target="_blank">
                       기술 블로그 바로가기
-                    </span>
+                      </a>
                   </div>
                 </div>
-                <div class="img-box icon-20">
+                <a href="https://wiken.io/b/156" target="_blank" class="img-box icon-20">
                   <img src="https://cdn.jsdelivr.net/gh/kimhyeji324/brand_site_Resource@master/docs/icon-right.png" alt="">
-                </div>
+                  </a>
               </div>
 
             </div>
