@@ -559,10 +559,10 @@
                   </a>
                 </div>
               </div>
-              <div class="img-box icon-20">
+              <a href="index.ssg.php" class="img-box icon-20">
                 <img src="https://cdn.jsdelivr.net/gh/kimhyeji324/brand_site_Resource@master/docs/icon-right.png"
                   alt="">
-              </div>
+              </a>
             </div>
 
           </div>
